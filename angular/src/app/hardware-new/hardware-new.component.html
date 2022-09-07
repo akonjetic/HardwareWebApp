@@ -1,0 +1,52 @@
+<h2>{{'hardware.createTitle' | translate}}</h2>
+<div>
+  <h3>{{'hardware.create' | translate}}</h3>
+  <div>
+    <label>{{'hardware.form.code' | translate}}:
+      <div>
+        <input #code placeholder="{{'hardware.form.codePlaceholder' | translate}}" />
+      </div>
+    </label>
+  </div>
+  <div>
+    <label>{{'hardware.form.firstName' | translate}}:
+      <div>
+        <input #name placeholder="{{'hardware.form.firstNamePlaceholder' | translate}}"/>
+      </div>
+    </label>
+  </div>
+  <div>
+    <label>{{'hardware.form.type' | translate}}:
+      <div>
+        <select #type >
+          <option value="CPU">CPU</option>
+          <option value="GPU">GPU</option>
+          <option value="MBO">MBO</option>
+          <option value="RAM">RAM</option>
+          <option value="STORAGE">{{'hardware.form.type_storage' | translate}}</option>
+          <option value="OTHER">{{'hardware.form.other' | translate}}</option>
+        </select>
+      </div>
+    </label>
+  </div>
+  <div>
+    <label>{{'hardware.form.stock' | translate}}:
+      <div>
+        <input type="number" #stock placeholder="{{'hardware.form.stockPlaceholder' | translate}}"/>
+      </div>
+    </label>
+  </div>
+  <div>
+    <label>{{'hardware.form.price' | translate}}:
+      <div>
+        <input type="number" #price placeholder="{{'hardware.form.pricePlaceholder' | translate}}"/>
+      </div>
+    </label>
+  </div>
+
+  <button (click)="add(code.value, name.value, type.value, +stock.value, +price.value); code.value=''; name.value=''; type.value='CPU'; stock.value=''; price.value=''">
+    {{'hardware.form.save' | translate}}
+  </button>
+
+  <button (click)="goBack()">{{'hardware.form.cancel' | translate}}</button>
+</div>

@@ -1,0 +1,67 @@
+{
+  "language": {
+    "croatian": "Croatian",
+    "english": "English",
+    "spanish": "Spanish"
+  },
+  "navbar": {
+    "username": "Username",
+    "role": "Role",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "login": {
+    "title": "Login",
+    "username": "Username",
+    "password": "Password",
+    "loginButton": "Login",
+    "loginError": "Login failed! Check your credentials and try again.",
+    "login_as": "You are logged in as",
+    "usernamePlaceholder": "Enter username",
+    "passwordPlaceholder": "Enter password"
+  },
+  "main": {
+    "hardwareLink": "Hardware"
+  },
+  "404": {
+    "pageNotFoundMessage": "The requested page was not found",
+    "returnToHomepage": "Return to home page"
+  },
+  "403": {
+    "pageForbiddenMessage": "Insufficient privileges to access this page!",
+    "returnToHomepage": "Return to home page"
+  },
+  "hardware": {
+    "title": "Hardware list",
+    "create": "Add new hardware",
+    "firstName": "Name",
+    "details": "Details",
+    "edit": "Edit",
+    "delete": "Delete",
+    "createTitle": "New Hardware",
+    "editTitle": "Edit hardware data",
+    "form": {
+      "firstName": "Name",
+      "firstNamePlaceholder": "Enter name",
+      "code": "Code",
+      "codePlaceholder": "Enter code",
+      "typePlaceholder": "Enter type",
+      "type": "Type",
+      "stock": "Stock",
+      "stockPlaceholder": "Enter stock",
+      "price": "Price",
+      "pricePlaceholder": "Enter price",
+      "cancel": "Cancel",
+      "save": "Save",
+      "type_storage": "Storage",
+      "type_other": "Other"
+    },
+    "detailsForm": {
+      "hardwareDetails": "Hardware details",
+      "ratePaymentMessage": "It is possible to pay in installments.",
+      "reviews": "Hardware reviews",
+      "notHavingReviews": "There are no available reviews",
+      "back": "Back to the hardware list"
+    }
+  }
+}

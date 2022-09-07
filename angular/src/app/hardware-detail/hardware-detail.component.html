@@ -1,0 +1,19 @@
+<div *ngIf="hardware">
+  <h2>{{'hardware.detailsForm.hardwareDetails' | translate}} {{hardware.name}}</h2>
+  <div><span>{{'hardware.form.price' | translate}} </span>{{hardware.price}} EUR</div>
+  <div *ngIf="hardware.price > 1000">{{'hardware.detailsForm.ratePaymentMessage' | translate}}</div>
+
+  <div *ngIf="reviews != null && reviews.length > 0" >
+    <h3>{{'hardware.detailsForm.reviews' | translate}}</h3>
+    <ul>
+      <li *ngFor="let review of reviews">
+        {{review.title}} - {{review.rating}}/5
+      </li>
+    </ul>
+  </div>
+  <div *ngIf="reviews != null && reviews.length === 0" >
+    <h3>{{'hardware.detailsForm.notHavingReviews' | translate}}</h3>
+  </div>
+
+  <button (click)="goBack()">{{'hardware.detailsForm.back' | translate}}</button>
+</div>

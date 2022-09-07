@@ -1,0 +1,68 @@
+{
+  "language": {
+    "croatian": "Hrvatski",
+    "english": "Engleski",
+    "spanish": "Španjolski"
+  },
+  "navbar": {
+    "username": "Korisničko ime",
+    "role": "Uloga",
+    "login": "Prijava",
+    "logout": "Odjava"
+  },
+  "login": {
+    "title": "Prijava",
+    "username": "Korisničko ime",
+    "password": "Lozinka",
+    "loginButton": "Prijava",
+    "loginError": "Neuspješna prijava! Provjerite podatke i pokušajte ponovno.",
+    "login_as": "Prijavljeni ste kao",
+    "usernamePlaceholder": "Unesite korisničke ime",
+    "passwordPlaceholder": "Unesite lozinku"
+  },
+  "main": {
+    "hardwareLink": "Hardveri"
+  },
+  "404": {
+    "pageNotFoundMessage": "Tražena stranica nije pronađena",
+    "returnToHomepage": "Povratak na početnu stranicu"
+  },
+  "403": {
+    "pageForbiddenMessage": "Nemate pravo pristupa traženoj stranici!",
+    "returnToHomepage": "Povratak na početnu stranicu"
+  },
+  "hardware": {
+    "title": "Popis hardvera",
+    "create": "Dodaj novi hardver",
+    "firstName": "Ime",
+    "lastName": "Prezime",
+    "details": "Detalji o",
+    "edit": "Uređivanje",
+    "delete": "Brisanje",
+    "createTitle": "Novi Hardver",
+    "editTitle": "Uređivanje podataka hardvera",
+    "form": {
+      "firstName": "Ime",
+      "firstNamePlaceholder": "Unesite ime",
+      "code": "Šifra",
+      "codePlaceholder": "Unesite šifru",
+      "typePlaceholder": "Unesite tip",
+      "type": "Tip",
+      "stock": "Broj dostupnih artikala",
+      "stockPlaceholder": "Unesite broj artikala",
+      "price": "Cijena",
+      "pricePlaceholder": "Unesite cijenu",
+      "cancel": "Odustani",
+      "save": "Spremi",
+      "type_storage": "Pohrana podataka",
+      "type_other": "Ostalo"
+    },
+    "detailsForm": {
+      "hardwareDetails": "Detalji hardvera",
+      "ratePaymentMessage": "Moguće je plaćanje na rate.",
+      "reviews": "Recenzije hardvera",
+      "notHavingReviews": "Nema dostupnih recenzija.",
+      "back": "Povratak na pregled hardvera"
+    }
+  }
+}

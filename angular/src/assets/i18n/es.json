@@ -1,0 +1,68 @@
+{
+  "language": {
+    "croatian": "Croata",
+    "english": "Inglés",
+    "spanish": "Español"
+
+  },
+  "navbar": {
+    "username": "Nombre de usuario",
+    "role": "Papel",
+    "login": "Inicio de sesión",
+    "logout": "Cierre de sesión"
+  },
+  "login": {
+    "title": "Inicio de sesión",
+    "username": "Nombre de usuario",
+    "password": "Contraseña",
+    "loginButton": "Inicio de sesión",
+    "loginError": "Error en el inicio de sesión. Compruebe sus credenciales e inténtelo de nuevo.",
+    "login_as": "Ha iniciado la sesión como",
+    "usernamePlaceholder": "Introduzca el nombre de usuario",
+    "passwordPlaceholder": "Introduzca la contraseña"
+  },
+  "main": {
+    "hardwareLink": "Hardware"
+  },
+  "404": {
+    "pageNotFoundMessage": "No se ha encontrado la página solicitada",
+    "returnToHomepage": "Volver a la página de inicio"
+  },
+  "403": {
+    "pageForbiddenMessage": "No hay privilegios suficientes para acceder a esta página.",
+    "returnToHomepage": "Volver a la página de inicio"
+  },
+  "hardware": {
+    "title": "Lista de hardware",
+    "create": "Añadir nuevo hardware",
+    "firstName": "Nombre",
+    "details": "Detalles",
+    "edit": "Editar",
+    "delete": "Borrar",
+    "createTitle": "Nuevo hardware",
+    "editTitle": "Editar datos del hardware",
+    "form": {
+      "firstName": "Nombre",
+      "firstNamePlaceholder": "Introduzca el nombre",
+      "code": "Código",
+      "codePlaceholder": "Introduzca el código",
+      "typePlaceholder": "Introduzca el tipo",
+      "type": "Tipo",
+      "stock": "Stock",
+      "stockPlaceholder": "Introduzca el stock",
+      "price": "Precio",
+      "pricePlaceholder": "Introduzca el precio",
+      "cancel": "Cancelar",
+      "save": "Guardar",
+      "type_storage": "Almacenamiento",
+      "type_other": "Otros"
+    },
+    "detailsForm": {
+      "hardwareDetails": "Detalles del hardware",
+      "ratePaymentMessage": "Es posible pagar a plazos.",
+      "reviews": "Comentarios sobre el hardware",
+      "notHavingReviews": "No hay opiniones disponibles",
+      "back": "Volver a la lista de hardware"
+    }
+  }
+}
